@@ -17,6 +17,7 @@
   border-bottom-right-radius: 10px;
 }
 .Chat.is-user-msg {
+  /*margin-left: auto;*/
   margin-left: auto;
   background: #2b2c33;
   border-top-right-radius: 0;
