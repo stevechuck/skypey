@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/skypey/static/css/main.c6fb3066.chunk.css",
+    "main.js": "/skypey/static/js/main.06e9e9a0.chunk.js",
+    "main.js.map": "/skypey/static/js/main.06e9e9a0.chunk.js.map",
+    "runtime~main.js": "/skypey/static/js/runtime~main.ae9fd11f.js",
+    "runtime~main.js.map": "/skypey/static/js/runtime~main.ae9fd11f.js.map",
+    "static/js/2.6bf307d6.chunk.js": "/skypey/static/js/2.6bf307d6.chunk.js",
+    "static/js/2.6bf307d6.chunk.js.map": "/skypey/static/js/2.6bf307d6.chunk.js.map",
+    "index.html": "/skypey/index.html",
+    "precache-manifest.d6bc0948f768747c8646abb06d49daa8.js": "/skypey/precache-manifest.d6bc0948f768747c8646abb06d49daa8.js",
+    "service-worker.js": "/skypey/service-worker.js",
+    "static/css/main.c6fb3066.chunk.css.map": "/skypey/static/css/main.c6fb3066.chunk.css.map"
+  }
+}
