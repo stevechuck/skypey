@@ -24,7 +24,7 @@ const MessageInput = ({ value }) => {
         className="Message__input"
         onChange={handleChange}
         value={value}
-        placeholder="write a message"
+        placeholder="Type something..."
       />
     </form>
   );
