@@ -17,3 +17,10 @@
     font-size: 1rem;
     outline: 0;
   }
+
+/* not small devices  */
+@media (max-width: 500px) {
+    .Search {
+      display: none;
+    }
+  }
