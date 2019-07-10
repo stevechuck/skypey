@@ -1,10 +1,9 @@
 .Message {
-  width: 100%;
   background-color: #f0f0f0;
   border-top: 1px #d0d0d0 solid;
 }
 .Message__input {
-  width: 80%;
+  width: 85%;
   height: 0.5rem;
   margin: 1rem auto;
   padding: 1rem;
@@ -18,4 +17,23 @@
 
 .Message__input::placeholder {
   font-style: italic;
+}
+
+.Submit__button {
+  width: 10%;
+  border: none;
+  color: #8f8f8f;
+  font-size: 1rem;
+  margin-top: auto;
+  background: none;
+  padding: 1rem;
+  text-align: center;
+
+}
+
+/* not small devices  */
+@media (max-width: 1200px) {
+  .Submit__button {
+    display: none;
+  }
 }

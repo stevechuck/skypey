@@ -26,6 +26,9 @@ const MessageInput = ({ value }) => {
         value={value}
         placeholder="Type something..."
       />
+      <button
+        className="Submit__button"
+        type="submit">Send</button>
     </form>
   );
 };
