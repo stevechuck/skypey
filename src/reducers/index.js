@@ -4,11 +4,13 @@ import user from "./user";
 import activeUserId from "./activeUserId";
 import messages from './messages';
 import typing from "./typing";
+import searching from "./searching";
 
 export default combineReducers({
     user,
     messages,
     typing,
+    searching,
     contacts,
     activeUserId,
 });

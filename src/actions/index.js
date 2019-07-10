@@ -2,6 +2,7 @@ import {
   SET_ACTIVE_USER_ID,
   SET_TYPING_VALUE,
   SEND_MESSAGE,
+  SET_SEARCHING,
 } from "../constants/action-types";
 
 export const setTypingValue = value => ({
@@ -20,4 +21,11 @@ export const sendMessage = (message, userId) => ({
       message,
       userId
   }
-})
+});
+
+export const setSearching = (search_text) => ({
+  type: SET_SEARCHING,
+  payload: {
+      search_text
+  }
+});

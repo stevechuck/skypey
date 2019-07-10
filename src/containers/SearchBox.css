@@ -1,0 +1,19 @@
+.Search {
+    background: #fff;
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+.Search__input {
+    width: 75%;
+    height: 0.5rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    background: #fff;
+    color: #333333;
+    border: 1px solid #c1c1c1; 
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: 0;
+  }
