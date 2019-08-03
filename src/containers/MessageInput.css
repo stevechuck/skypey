@@ -1,14 +1,39 @@
 .Message {
-  width: 80%;
-  margin: 1rem auto;
+  background-color: #f0f0f0;
+  border-top: 1px #d0d0d0 solid;
 }
 .Message__input {
-  width: 100%;
+  width: 85%;
+  height: 0.5rem;
+  margin: 1rem auto;
   padding: 1rem;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
+  background: #fff;
+  color: #333333;
   border: 0;
   border-radius: 10px;
   font-size: 1rem;
   outline: 0;
+}
+
+.Message__input::placeholder {
+  font-style: italic;
+}
+
+.Submit__button {
+  width: 10%;
+  border: none;
+  color: #8f8f8f;
+  font-size: 1rem;
+  margin-top: auto;
+  background: none;
+  padding: 1rem;
+  text-align: center;
+
+}
+
+/* not small devices  */
+@media (max-width: 1200px) {
+  .Submit__button {
+    display: none;
+  }
 }
